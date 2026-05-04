@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="1080" height="1350">
+  <!-- Stringfest brand palette:
+       brand red:    #CF3338
+       brand red dk: #C00000
+       bg light:     #EEECE1
+       text body:    #707070
+       text dark:    #1F2120
+  -->
+
+  <!-- Background (off-white) -->
+  <rect width="1080" height="1350" fill="#EEECE1"/>
+
+  <!-- Top accent bar (brand red) -->
+  <rect x="0" y="0" width="1080" height="14" fill="#CF3338"/>
+
+  <!-- Brand wordmark, top-left (since we cannot reconstruct the logo, use styled text per branding skill guidance) -->
+  <text x="80" y="78" font-family="Arial Black, Liberation Sans, Arial, sans-serif" font-weight="900" font-size="22" letter-spacing="3" fill="#CF3338">STRINGFEST ANALYTICS</text>
+
+  <!-- Headline block -->
+  <text x="80" y="180" font-family="Arial Black, Liberation Sans, Arial, sans-serif" font-weight="900" font-size="62" fill="#1F2120">One of the best</text>
+  <text x="80" y="252" font-family="Arial Black, Liberation Sans, Arial, sans-serif" font-weight="900" font-size="62" fill="#1F2120">uses of AI:</text>
+  <text x="80" y="372" font-family="Arial Black, Liberation Sans, Arial, sans-serif" font-weight="900" font-size="116" fill="#CF3338" letter-spacing="-2">REPURPOSING.</text>
+
+  <!-- Subhead -->
+  <text x="80" y="430" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#707070">Take one analysis. Reframe it. Reformat it. Send it everywhere.</text>
+
+  <!-- Divider rule -->
+  <line x1="80" y1="478" x2="1000" y2="478" stroke="#CF3338" stroke-width="3"/>
+
+  <!-- ========== AUDIENCE SHIFT block ========== -->
+  <text x="80" y="538" font-family="Arial Black, Liberation Sans, Arial, sans-serif" font-weight="900" font-size="28" letter-spacing="4" fill="#CF3338">AUDIENCE SHIFT</text>
+  <text x="80" y="572" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#707070" font-style="italic">Same content. Different reader.</text>
+
+  <!-- Source pill -->
+  <rect x="80" y="600" width="340" height="62" rx="8" fill="#1F2120"/>
+  <text x="100" y="640" font-family="Arial Black, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">March variance findings</text>
+
+  <!-- Connector lines + arrows from source to outputs -->
+  <!-- Vertical line from source pill bottom -->
+  <line x1="225" y1="662" x2="225" y2="822" stroke="#CF3338" stroke-width="3"/>
+  <!-- Horizontal stems -->
+  <line x1="225" y1="700" x2="430" y2="700" stroke="#CF3338" stroke-width="3"/>
+  <line x1="225" y1="760" x2="430" y2="760" stroke="#CF3338" stroke-width="3"/>
+  <line x1="225" y1="820" x2="430" y2="820" stroke="#CF3338" stroke-width="3"/>
+  <!-- Arrow heads -->
+  <polygon points="430,694 446,700 430,706" fill="#CF3338"/>
+  <polygon points="430,754 446,760 430,766" fill="#CF3338"/>
+  <polygon points="430,814 446,820 430,826" fill="#CF3338"/>
+
+  <!-- Audience output labels -->
+  <text x="460" y="708" font-family="Arial Black, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="26" fill="#1F2120">For the CFO</text>
+  <text x="460" y="768" font-family="Arial Black, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="26" fill="#1F2120">For the VP of Engineering</text>
+  <text x="460" y="828" font-family="Arial Black, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="26" fill="#1F2120">For the board</text>
+
+  <!-- Divider rule -->
+  <line x1="80" y1="880" x2="1000" y2="880" stroke="#CF3338" stroke-width="3"/>
+
+  <!-- ========== FORMAT SHIFT block ========== -->
+  <text x="80" y="940" font-family="Arial Black, Liberation Sans, Arial, sans-serif" font-weight="900" font-size="28" letter-spacing="4" fill="#CF3338">FORMAT SHIFT</text>
+  <text x="80" y="974" font-family="Arial, Liberation Sans, sans-serif" font-size="22" fill="#707070" font-style="italic">Same content. Different deliverable.</text>
+
+  <!-- Source pill -->
+  <rect x="80" y="1002" width="340" height="62" rx="8" fill="#1F2120"/>
+  <text x="100" y="1042" font-family="Arial Black, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">March variance findings</text>
+
+  <!-- Connector lines + arrows -->
+  <line x1="225" y1="1064" x2="225" y2="1224" stroke="#CF3338" stroke-width="3"/>
+  <line x1="225" y1="1102" x2="430" y2="1102" stroke="#CF3338" stroke-width="3"/>
+  <line x1="225" y1="1162" x2="430" y2="1162" stroke="#CF3338" stroke-width="3"/>
+  <line x1="225" y1="1222" x2="430" y2="1222" stroke="#CF3338" stroke-width="3"/>
+  <polygon points="430,1096 446,1102 430,1108" fill="#CF3338"/>
+  <polygon points="430,1156 446,1162 430,1168" fill="#CF3338"/>
+  <polygon points="430,1216 446,1222 430,1228" fill="#CF3338"/>
+
+  <!-- Format output labels -->
+  <text x="460" y="1110" font-family="Arial Black, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="26" fill="#1F2120">As an email</text>
+  <text x="460" y="1170" font-family="Arial Black, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="26" fill="#1F2120">As a slide deck</text>
+  <text x="460" y="1230" font-family="Arial Black, Liberation Sans, Arial, sans-serif" font-weight="700" font-size="26" fill="#1F2120">As a Slack post</text>
+
+  <!-- Footer band: punchline + URL + chevron motif -->
+  <text x="80" y="1284" font-family="Arial Black, Liberation Sans, Arial, sans-serif" font-weight="900" font-size="28" fill="#1F2120">Two axes. Endless reuse.</text>
+  <text x="80" y="1316" font-family="Arial Black, Liberation Sans, Arial, sans-serif" font-weight="900" font-size="28" fill="#CF3338">Skills make it stick.</text>
+  <text x="80" y="1340" font-family="Arial, Liberation Sans, sans-serif" font-size="18" fill="#707070">stringfestanalytics.com</text>
+
+  <!-- Stacked chevron motif, bottom-right (drawn programmatically per branding skill) -->
+  <!-- Three upward-pointing red outline chevrons, stacked, partially cropped at edge -->
+  <g stroke="#CF3338" stroke-width="6" fill="none" stroke-linejoin="round">
+    <!-- Bottom chevron (largest) -->
+    <polyline points="830,1330 940,1220 1050,1330"/>
+    <!-- Middle chevron -->
+    <polyline points="850,1290 940,1200 1030,1290"/>
+    <!-- Top chevron (smallest) -->
+    <polyline points="870,1250 940,1180 1010,1250"/>
+  </g>
+</svg>
