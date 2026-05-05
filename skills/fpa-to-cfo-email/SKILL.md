@@ -11,6 +11,10 @@ CFOs read a lot of email and have approximately 90 seconds for any given one. Th
 
 The input is finance analysis (variance memo, close commentary, monthly review notes). The output is one email — subject line, opening, body, sign-off. If the user wants a deck, a memo, or anything other than an email, don't use this skill.
 
+## Optional input: underlying data
+
+The user may provide the underlying data alongside the writeup (e.g., a variance xlsx). The writeup is the **primary input** — its findings and asks are what get formatted into the email. Provided data is a **fact-check source** for any number that appears in the email. If the writeup says $66K unfavorable and the data confirms it, send the number with confidence; if there's a discrepancy, prefer the data and flag it. Don't introduce numbers from the data that the writeup didn't surface.
+
 ## Email structure
 
 Always use this structure, in order. The structure is the value of the skill — don't deviate.

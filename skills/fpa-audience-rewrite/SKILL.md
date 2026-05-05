@@ -11,6 +11,10 @@ The same set of numbers needs to land very differently for a CFO than for a depa
 
 The input is an existing analytical writeup (variance commentary, close findings, forecast notes, etc.) and the user wants the same content expressed for a specific audience. Don't use this skill to *create* the underlying analysis — only to reframe analysis that already exists.
 
+## Optional input: underlying data
+
+The user may provide the underlying data alongside the writeup (e.g., a variance xlsx, a headcount xlsx). Treat the writeup as the **primary input** — its narrative, hypotheses, and asks are what gets repurposed. Treat any provided data as a **fact-check source** for numbers that appear in the rewrite. If a number in the writeup conflicts with the data, prefer the data and flag the discrepancy in the output. Don't introduce new analyses or numbers from the data that aren't in the writeup.
+
 ## How to think about audience
 
 Each audience cares about different things and reads at different levels of detail. Match all four levers below to the audience.

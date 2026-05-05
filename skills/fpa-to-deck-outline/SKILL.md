@@ -11,6 +11,10 @@ A monthly variance review deck is mostly the same shape every month: cover, head
 
 The input is finance analysis. The output is a slide outline. If the user wants an email or memo, don't use this skill — use `fpa-to-cfo-email` or `fpa-audience-rewrite` instead.
 
+## Optional input: underlying data
+
+The user may provide the underlying data alongside the writeup (e.g., a variance xlsx). The writeup is the **primary input** — its findings, drivers, and forward-look points are what shape the slides. Provided data is a **fact-check source** for any number on the slides and is also useful when describing the table on the "Material variances" slide (e.g., to confirm the row sort order or pull headcount context). If a number in the writeup conflicts with the data, prefer the data and flag it. Don't introduce numbers from the data that the writeup didn't surface.
+
 ## Standard structure
 
 A monthly variance review fits into 6–8 slides. Use this structure unless the user asks for something different. The structure exists because monthly reviews follow a predictable arc — anchor on plan, explain variances, look forward, close on decisions.
